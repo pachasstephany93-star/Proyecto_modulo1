@@ -48,9 +48,6 @@ Durante el desarrollo de la aplicación se implementaron los siguientes fundamen
 - Interfaz gráfica con Streamlit
 
 ---
-##⚙️ Uso
-Ejecutar la aplicación desde la terminal con el siguiente comando:
-        streamlit run app.py
 
 ##🗂️ Estructura de Archivos
 Aplicación/
@@ -83,4 +80,6 @@ Puedes instalar los requisitos ejecutando:
 ```bash
 pip install -r requirements.txt
 
-
+##⚙️ Uso
+Ejecutar la aplicación desde la terminal con el siguiente comando:
+        streamlit run app.py
