@@ -1,85 +1,107 @@
 # Proyecto_modulo1
-![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red)
-![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
-![PRs](https://img.shields.io/badge/PRs-Welcome-orange)
+# 🧵 Sistema de Control de Producción Textil
 
- 📌 Introducción
-
-El **Simulador de Planeamiento de Producción Textil** es una aplicación interactiva desarrollada en Python utilizando Streamlit que permite simular el comportamiento de actividades productivas dentro de un entorno de planeamiento textil.
-
-Esta herramienta está orientada a evaluar el cumplimiento de actividades en función de parámetros operativos como:
-
-- Presupuesto de producción (kg)
-- Gasto real ejecutado (kg)
-- Retorno estimado de actividades
-
-La aplicación permite al usuario ingresar información productiva y visualizar el estado de cumplimiento de manera dinámica mediante una interfaz gráfica interactiva.
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![Framework](https://img.shields.io/badge/Framework-Streamlit-red)
+![Status](https://img.shields.io/badge/Estado-Funcional-brightgreen)
 
 ---
 
-## 📊 Descripción del Proyecto
+## 📌 Descripción General
 
-Este proyecto ofrece:
+El Sistema de Control de Producción Textil es una aplicación interactiva desarrollada en Python utilizando Streamlit que permite registrar, evaluar y analizar procesos productivos dentro de una planta textil.
 
-✔ Evaluación del cumplimiento de producción  
-✔ Registro de actividades operativas  
-✔ Cálculo de retorno estimado  
-✔ Clasificación de estado de actividades  
-✔ Interfaz interactiva desarrollada en Streamlit  
-✔ Modelamiento mediante Programación Orientada a Objetos  
+La aplicación integra los conceptos fundamentales aprendidos durante el Módulo 1 del curso **Python Fundamentals**, aplicándolos a un entorno real de producción en la industria textil como:
 
-El sistema permite simular decisiones de planeamiento dentro de un contexto productivo textil.
+- Hilado  
+- Tejido  
+- Teñido  
+
+Permitiendo controlar el cumplimiento de producción programada en kilogramos de hilo procesado.
 
 ---
 
-## 🧠 Conceptos Aplicados
+## 🚀 Introducción
 
-Durante el desarrollo de la aplicación se implementaron los siguientes fundamentos de programación:
+Este proyecto fue desarrollado como trabajo práctico del Módulo 1, con el objetivo de aplicar los fundamentos de programación en Python dentro de un contexto relacionado con la Ingeniería Textil.
 
-- Variables
-- Condicionales
+La aplicación permite:
+
+- Evaluar el cumplimiento de producción.
+- Registrar procesos textiles.
+- Calcular retornos esperados.
+- Modelar actividades mediante Programación Orientada a Objetos.
+
+Todo esto mediante una interfaz gráfica interactiva desarrollada con Streamlit.
+
+---
+
+## 📈 Funcionalidades del Proyecto
+
+La aplicación está dividida en cuatro módulos principales:
+
+### 📝 Ejercicio 1 – Variables y Condicionales
+
+Permite evaluar si la producción real de hilo cumple con la producción programada en kilogramos.
+
+Se utilizan:
+
+- Variables numéricas
+- Estructuras condicionales (if – else)
+
+---
+
+### 📋 Ejercicio 2 – Listas y Diccionarios
+
+Permite registrar múltiples procesos textiles como:
+
+- Hilado  
+- Tejido  
+- Teñido  
+
+Cada actividad es almacenada en estructuras de datos tipo:
+
 - Listas
 - Diccionarios
-- Funciones
-- Programación Funcional (map y lambda)
-- Programación Orientada a Objetos (POO)
-- Interfaz gráfica con Streamlit
 
 ---
 
-##🗂️ Estructura de Archivos
-Aplicación/
-│
-├── app.py               # Control principal de la aplicación
-├── funciones.py         # Funciones del sistema
-├── logo1.png            # Imagen de la interfaz
-├── requirements.txt     # Dependencias del proyecto
-├── README.md            # Documentación del proyecto
+### 🧮 Ejercicio 3 – Funciones y Programación Funcional
 
-##🎓 Autor
-Stephany Xiomara Pachas Sanchez
-Ingeniería Textil
-2026
+Se calcula el retorno esperado de cada proceso productivo utilizando:
 
-##📝 Licencia
-Proyecto desarrollado con fines académicos para el curso de Python Fundamentals.
+- Funciones definidas por el usuario
+- Funciones lambda
+- Programación funcional mediante map()
 
+---
 
+### ⚙️ Ejercicio 4 – Programación Orientada a Objetos (POO)
+
+Se modela cada proceso textil como un objeto de la clase:
+
+Actividad
+
+Incluyendo:
+
+- Atributos
+- Métodos
+- Evaluación del cumplimiento del presupuesto
+
+---
 
 ## 🛠️ Requisitos
 
-Para ejecutar la aplicación necesitas tener instalados los siguientes paquetes:
+Para ejecutar la aplicación necesitas tener instalado:
 
 - Python 3.8 o superior
 - Streamlit
 
-Puedes instalar los requisitos ejecutando:
+---
+
+## 📦 Instalación de Dependencias
+
+Instalar las dependencias necesarias utilizando el archivo requirements.txt:
 
 ```bash
 pip install -r requirements.txt
-
-##⚙️ Uso
-Ejecutar la aplicación desde la terminal con el siguiente comando:
-        streamlit run app.py
