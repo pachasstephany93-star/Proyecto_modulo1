@@ -1,107 +1,108 @@
 # Proyecto_modulo1
+
 # 🧵 Sistema de Control de Producción Textil
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![Framework](https://img.shields.io/badge/Framework-Streamlit-red)
-![Status](https://img.shields.io/badge/Estado-Funcional-brightgreen)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-green)
+![Estado](https://img.shields.io/badge/Estado-Académico-orange)
 
 ---
 
 ## 📌 Descripción General
 
-El Sistema de Control de Producción Textil es una aplicación interactiva desarrollada en Python utilizando Streamlit que permite registrar, evaluar y analizar procesos productivos dentro de una planta textil.
+Sistema de Control de Producción Textil es una aplicación interactiva desarrollada en Python utilizando Streamlit, que permite simular el seguimiento y control de procesos productivos en una empresa textil.
 
-La aplicación integra los conceptos fundamentales aprendidos durante el Módulo 1 del curso **Python Fundamentals**, aplicándolos a un entorno real de producción en la industria textil como:
-
-- Hilado  
-- Tejido  
-- Teñido  
-
-Permitiendo controlar el cumplimiento de producción programada en kilogramos de hilo procesado.
+La aplicación fue diseñada como parte del Trabajo Práctico del Módulo 1 del curso Python Fundamentals, integrando los conceptos fundamentales de programación aprendidos durante el desarrollo del curso.
 
 ---
 
 ## 🚀 Introducción
 
-Este proyecto fue desarrollado como trabajo práctico del Módulo 1, con el objetivo de aplicar los fundamentos de programación en Python dentro de un contexto relacionado con la Ingeniería Textil.
+Esta herramienta permite evaluar y registrar procesos textiles como:
 
-La aplicación permite:
+- Hilado
+- Tejido
+- Teñido
 
-- Evaluar el cumplimiento de producción.
-- Registrar procesos textiles.
-- Calcular retornos esperados.
-- Modelar actividades mediante Programación Orientada a Objetos.
+Mediante el ingreso de datos de producción programada y producción real, el sistema permite analizar el cumplimiento del programa productivo y calcular retornos esperados de cada actividad registrada.
 
-Todo esto mediante una interfaz gráfica interactiva desarrollada con Streamlit.
-
----
-
-## 📈 Funcionalidades del Proyecto
-
-La aplicación está dividida en cuatro módulos principales:
-
-### 📝 Ejercicio 1 – Variables y Condicionales
-
-Permite evaluar si la producción real de hilo cumple con la producción programada en kilogramos.
-
-Se utilizan:
-
-- Variables numéricas
-- Estructuras condicionales (if – else)
+La aplicación presenta una interfaz gráfica interactiva que facilita la visualización de resultados de manera sencilla.
 
 ---
 
-### 📋 Ejercicio 2 – Listas y Diccionarios
+## 📊 Funcionalidades
 
-Permite registrar múltiples procesos textiles como:
+El sistema permite:
 
-- Hilado  
-- Tejido  
-- Teñido  
+- Evaluar el cumplimiento de producción programada.
+- Registrar actividades textiles mediante listas y diccionarios.
+- Calcular retornos esperados utilizando funciones.
+- Aplicar programación funcional mediante el uso de `map()` y `lambda`.
+- Modelar actividades productivas mediante Programación Orientada a Objetos (POO).
+- Visualizar información mediante una interfaz gráfica desarrollada con Streamlit.
 
-Cada actividad es almacenada en estructuras de datos tipo:
+---
 
+## 🧠 Conceptos Aplicados
+
+Durante el desarrollo de la aplicación se aplicaron los siguientes conceptos de programación:
+
+- Variables
+- Estructuras condicionales
 - Listas
 - Diccionarios
-
----
-
-### 🧮 Ejercicio 3 – Funciones y Programación Funcional
-
-Se calcula el retorno esperado de cada proceso productivo utilizando:
-
-- Funciones definidas por el usuario
-- Funciones lambda
-- Programación funcional mediante map()
-
----
-
-### ⚙️ Ejercicio 4 – Programación Orientada a Objetos (POO)
-
-Se modela cada proceso textil como un objeto de la clase:
-
-Actividad
-
-Incluyendo:
-
-- Atributos
-- Métodos
-- Evaluación del cumplimiento del presupuesto
+- Funciones
+- Programación Funcional
+- Programación Orientada a Objetos (POO)
+- Interfaces gráficas con Streamlit
 
 ---
 
 ## 🛠️ Requisitos
 
-Para ejecutar la aplicación necesitas tener instalado:
+Para ejecutar la aplicación es necesario tener instalado:
 
 - Python 3.8 o superior
 - Streamlit
 
 ---
 
-## 📦 Instalación de Dependencias
+## 📦 Instalación
 
-Instalar las dependencias necesarias utilizando el archivo requirements.txt:
-
-```bash
+Instalar las dependencias necesarias ejecutando el siguiente comando:
 pip install -r requirements.txt
+
+---
+
+## ▶️ Ejecución
+
+Para ejecutar la aplicación, utilizar el siguiente comando en la terminal:
+
+streamlit run app.py
+
+---
+
+## 🗂️ Estructura del Proyecto
+Aplicacion_Textil/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── assets/
+│ └── logo1.png
+│
+└── data/
+
+---
+
+## 🎓 Uso Académico
+
+Este proyecto fue desarrollado con fines académicos como parte del:
+
+Trabajo Práctico – Módulo 1  
+Curso: Python Fundamentals  
+Año: 2026
+Elaborado: Stephany Pachas Sánchez
+---
