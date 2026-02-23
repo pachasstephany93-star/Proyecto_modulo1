@@ -48,19 +48,6 @@ Durante el desarrollo de la aplicación se implementaron los siguientes fundamen
 - Interfaz gráfica con Streamlit
 
 ---
-
-## 🛠️ Requisitos
-
-Para ejecutar la aplicación necesitas tener instalados los siguientes paquetes:
-
-- Python 3.8 o superior
-- Streamlit
-
-Puedes instalar los requisitos ejecutando:
-
-```bash
-pip install -r requirements.txt
-
 ##⚙️ Uso
 Ejecutar la aplicación desde la terminal con el siguiente comando:
         streamlit run app.py
@@ -81,3 +68,19 @@ Ingeniería Textil
 
 ##📝 Licencia
 Proyecto desarrollado con fines académicos para el curso de Python Fundamentals.
+
+
+
+## 🛠️ Requisitos
+
+Para ejecutar la aplicación necesitas tener instalados los siguientes paquetes:
+
+- Python 3.8 o superior
+- Streamlit
+
+Puedes instalar los requisitos ejecutando:
+
+```bash
+pip install -r requirements.txt
+
+
